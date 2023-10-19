@@ -1,0 +1,66 @@
+.bg-container {
+  text-align: center;
+  font: bold italic 22px Bree Sharif;
+  padding: 50px;
+}
+
+.calculator {
+  max-width: 350px;
+  margin: 20px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.display-container {
+  display: flex;
+}
+.display {
+  font-size: 25px;
+  text-align: right;
+  margin-bottom: 10px;
+  padding: 10px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 240px;
+  display: grid;
+}
+
+.reset-button {
+  background-color: #ff4500;
+  cursor: pointer;
+  margin-left: 10px;
+  margin-bottom: 10px;
+  width: 75px;
+}
+
+.buttons {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 10px;
+}
+
+button {
+  font-size: 25px;
+  padding: 10px;
+  border: none;
+  border-radius: 50px;
+  background-color: #00bfff;
+  color: #fff;
+  cursor: pointer;
+}
+
+button:active {
+  background-color: #45a049;
+}
+
+.result-btn {
+  background-color: #45a049;
+}
+
+.opbtn {
+  background-color: #778899;
+}
